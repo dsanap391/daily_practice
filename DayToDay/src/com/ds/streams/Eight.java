@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 
 public class Eight {
 	public static void main(String[] args) {
-		List<Integer> list=Arrays.asList(1,2,3,4,5,6,6,2,3,42,52,6,7);
+		List<String> list=Arrays.asList("Aniket","Aradhya","Aniket","Sumit","Devansh","Devansh");
 		
-		List<Integer> distinctList = list.stream().distinct().collect(Collectors.toList());
+		List<String> distinctList = list.stream().distinct().collect(Collectors.toList());
 
 		System.out.println(distinctList);
 	}
