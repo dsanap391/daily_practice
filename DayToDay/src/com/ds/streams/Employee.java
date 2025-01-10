@@ -4,7 +4,7 @@ class Employee{
 	String name;
 	int age;
 	
-	public Employee(String name, int age) {
+	public Employee(int age, String name) {
 		this.name = name;
 		this.age = age;
 	}
@@ -29,5 +29,6 @@ class Employee{
 	public String toString() {
 		return "name=" + name + ", age=" + age;
 	}
+
 }
 
